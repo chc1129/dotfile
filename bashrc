@@ -49,6 +49,10 @@ alias reload='source ~/.bashrc'
 alias dtree='tree -d'
 alias stree='tree -Csu'
 
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+
 # command cd
 alias ..='cd ..'        # one up directory
 alias ...='cd ../../'   # twe up directory
