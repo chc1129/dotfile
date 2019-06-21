@@ -70,6 +70,12 @@ alias m='make'
 alias mk='make -k &> compileLog.txt'
 alias mc='make clean'
 
+# git command alias
+alias ga='git add'
+alias gc='git commit'
+alias gl='git log -p'
+alias gp='git push origin master'
+alias gs='git status'
 
 # Personal Help
 alias l?='cat ~/.bashrc | grep "alias l.*=.ls" | grep ^alias'
