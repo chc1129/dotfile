@@ -74,8 +74,22 @@ alias mc='make clean'
 alias ga='git add'
 alias gc='git commit'
 alias gl='git log -p'
+alias glog='git log -p'
+alias glogg='git log --graph'
 alias gp='git push origin master'
 alias gs='git status'
+alias gdiff='git diff -U100'
+alias gd='git diff -U100'
+
+# svn alias
+alias sinfo='svn info'
+alias sup='svn update'
+alias sc='svn commit'
+alias sa='svn add'
+alias slog='svn log --diff'
+alias sdiff='svn diff -U100'
+alias sd='svn diff -U100'
+alias ss='svn status'
 
 # Personal Help
 alias l?='cat ~/.bashrc | grep "alias l.*=.ls" | grep ^alias'
