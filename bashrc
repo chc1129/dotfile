@@ -101,4 +101,19 @@ alias g?='cat ~/.bashrc | grep "alias .*grep=.find" | grep ^alias'
 HISTSIZE=50000
 HISTTIMEFORMAT='%Y/%m/%d %H:%M:%S '
 
+# python3 command alias
+alias py='python'
+alias pyv12='source ~/.venv/python3.12/newest/bin/activate'
+alias pyv11='source ~/.venv/python3.11/newest/bin/activate'
+alias pyv10='source ~/.venv/python3.10/newest/bin/activate'
+alias pyvoff='deactivate'
+
+# perl comand alias
+alias pl='perl'
+
+# MySQL command alias
+alias msv='mysql --version'
+
+# wsl alias
+alias ex='explorer.exe'
 
